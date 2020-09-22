@@ -49,7 +49,7 @@ class Usuario {
         $this->idsetor = $idsetor;
     }
 
-    function __construct($idusuario, $nousuario, $email, $senha, $idsetor) {
+    function __construct($idusuario = null, $nousuario = null, $email = null, $senha = null, $idsetor=null) {
         $this->idusuario = $idusuario;
         $this->nousuario = $nousuario;
         $this->email = $email;
